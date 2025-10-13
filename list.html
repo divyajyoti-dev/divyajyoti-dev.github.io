@@ -48,7 +48,7 @@
                 var jsonTable = document.createElement("table");
                 var tr = jsonTable.insertRow(-1);   
                 jsonTable.style.width = "75%";
-                let root;
+                let root = Object.keys(data)[0];
                 for (let prop in data) {
                     root = prop;
                 }
