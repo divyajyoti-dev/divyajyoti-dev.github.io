@@ -1,8 +1,6 @@
 <!ELEMENT restaurants (restaurant+)>
-
 <!ELEMENT restaurant (name, cuisine, city, open, close)>
 <!ATTLIST restaurant id CDATA #REQUIRED>
-
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT cuisine (#PCDATA)>
 <!ELEMENT city (#PCDATA)>
