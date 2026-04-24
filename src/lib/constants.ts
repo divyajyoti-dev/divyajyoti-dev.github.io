@@ -7,6 +7,6 @@ export const SITE = {
   email: "divya_jyoti@berkeley.edu",
   github: "https://github.com/divyajyoti-dev",
   linkedin: "https://linkedin.com/in/divya--jyoti",
-  resume: "/resume.pdf",
+  resume: "https://linkedin.com/in/divya--jyoti",
   openTo: "Summer 2026 internships",
 } as const;
