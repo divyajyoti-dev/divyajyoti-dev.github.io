@@ -1,0 +1,67 @@
+import type { Experience } from "@/types";
+
+export const experiences: Experience[] = [
+  {
+    id: "berkeley",
+    title: "Master of Information Management and Systems",
+    organization: "UC Berkeley School of Information",
+    organizationUrl: "https://ischool.berkeley.edu",
+    location: "Berkeley, CA",
+    startDate: "Aug 2025",
+    endDate: "May 2027",
+    type: "education",
+    highlights: [
+      "Focus areas: Applied NLP, Machine Learning, Information Systems, and Data Science",
+      "Pursuing Summer 2026 internships in software engineering and AI/ML",
+    ],
+    technologies: ["Python", "Machine Learning", "NLP", "Data Science"],
+  },
+  {
+    id: "ubs-sde2",
+    title: "Software Development Engineer II",
+    organization: "UBS",
+    organizationUrl: "https://www.ubs.com",
+    location: "Pune, India",
+    startDate: "Feb 2025",
+    endDate: "Aug 2025",
+    type: "work",
+    highlights: [
+      "Built a risk monitoring platform using Kdb+/Q, consolidating 54 fragmented dashboards into 6, achieving a 94% reduction in manual reporting effort",
+      "Designed a parameter-driven validation framework improving data integrity by 40% across risk reporting pipelines",
+      "Led cross-team alignment across compliance and technology groups for regulatory reporting",
+    ],
+    technologies: ["Kdb+/Q", "Python", "SQL", "Risk Monitoring", "Data Engineering"],
+  },
+  {
+    id: "ubs-sde1",
+    title: "Software Development Engineer I",
+    organization: "UBS",
+    organizationUrl: "https://www.ubs.com",
+    location: "Pune, India",
+    startDate: "Jul 2022",
+    endDate: "Jan 2025",
+    type: "work",
+    highlights: [
+      "Built a monitoring solution reducing critical incidents by 26% through proactive alerting and anomaly detection",
+      "Architected an Apache Kafka data pipeline spanning 5 APAC regions, improving data accuracy by 30%",
+      "Re-architected a hybrid data system increasing processing capacity by 150% to handle peak trading volumes",
+      "Led Azure cloud migration using ARM templates and Terraform for infrastructure-as-code standardisation",
+    ],
+    technologies: ["Apache Kafka", "Azure", "Terraform", "ARM Templates", "Kdb+/Q", "Python"],
+  },
+  {
+    id: "ubs-intern",
+    title: "Summer & Winter Intern",
+    organization: "UBS",
+    organizationUrl: "https://www.ubs.com",
+    location: "Pune, India",
+    startDate: "Jun 2021",
+    endDate: "Jun 2022",
+    type: "work",
+    highlights: [
+      "Built a high-throughput backend validation engine reducing processing time by 93% (from 3 hours to 25 minutes)",
+      "Developed a self-service analytics tool using Kdb+/Q enabling non-technical stakeholders to query risk data independently",
+    ],
+    technologies: ["Kdb+/Q", "Python", "Backend Development", "Analytics"],
+  },
+];
